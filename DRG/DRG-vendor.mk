@@ -415,90 +415,90 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/DRG/proprietary/vendor/lib64/vendor.qti.hardware.wifi.wifilearner@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.wifi.wifilearner@1.0.so \
     vendor/nokia/DRG/proprietary/vendor/lib64/vendor.qti.hardware.wigig.netperftuner@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.wigig.netperftuner@1.0.so \
     vendor/nokia/DRG/proprietary/vendor/odm/etc/vintf/manifest.xml:$(TARGET_COPY_OUT_VENDOR)/odm/etc/vintf/manifest.xml \
-    vendor/nokia/DRG/proprietary/vendor/pre-default.prop:$(TARGET_COPY_OUT_VENDOR)/pre-default.prop
+    vendor/nokia/DRG/proprietary/vendor/pre-default.prop:$(TARGET_COPY_OUT_VENDOR)/pre-default.prop \
     vendor/nokia/DRG/proprietary/vendor/bin/ElanPrintf:$(TARGET_COPY_OUT_VENDOR)/bin/ElanPrintf \
     vendor/nokia/DRG/proprietary/vendor/bin/gf_cmd_test_gxfp3208_b2n:$(TARGET_COPY_OUT_VENDOR)/bin/gf_cmd_test_gxfp3208_b2n \
     vendor/nokia/DRG/proprietary/vendor/bin/gf_cmd_test_gxfp5288_c1n:$(TARGET_COPY_OUT_VENDOR)/bin/gf_cmd_test_gxfp5288_c1n \
     vendor/nokia/DRG/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-service \
     vendor/nokia/DRG/proprietary/vendor/bin/qfp-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/qfp-daemon \
     vendor/nokia/DRG/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc \
-    vendor/nokia/DRG/proprietary/vendor/etc/init/hw/init.fingerprint.elan.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.fingerprint.elan.rc \	
-    vendor/nokia/DRG/proprietary/vendor/etc/init/hw/init.fingerprint.focal9362_tas.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.fingerprint.focal9362_tas.rc \	
-    vendor/nokia/DRG/proprietary/vendor/etc/init/hw/init.fingerprint.gxfp3208_b2n.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.fingerprint.gxfp3208_b2n.rc \	
+    vendor/nokia/DRG/proprietary/vendor/etc/init/hw/init.fingerprint.elan.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.fingerprint.elan.rc \
+    vendor/nokia/DRG/proprietary/vendor/etc/init/hw/init.fingerprint.focal9362_tas.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.fingerprint.focal9362_tas.rc \
+    vendor/nokia/DRG/proprietary/vendor/etc/init/hw/init.fingerprint.gxfp3208_b2n.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.fingerprint.gxfp3208_b2n.rc \
     vendor/nokia/DRG/proprietary/vendor/etc/init/hw/init.fingerprint.gxfp5288_c1n.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.fingerprint.gxfp5288_c1n.rc \
     vendor/nokia/DRG/proprietary/vendor/etc/permissions/qti_fingerprint_interface.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qti_fingerprint_interface.xml \
-    vendor/nokia/DRG/proprietary/vendor/firmware/elanfp64.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/elanfp64.b00 \	
-    vendor/nokia/DRG/proprietary/vendor/firmware/elanfp64.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/elanfp64.b01 \	
-    vendor/nokia/DRG/proprietary/vendor/firmware/elanfp64.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/elanfp64.b02 \	
-    vendor/nokia/DRG/proprietary/vendor/firmware/elanfp64.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/elanfp64.b03 \	
-    vendor/nokia/DRG/proprietary/vendor/firmware/elanfp64.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/elanfp64.b04 \	
-    vendor/nokia/DRG/proprietary/vendor/firmware/elanfp64.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/elanfp64.b05 \	
-    vendor/nokia/DRG/proprietary/vendor/firmware/elanfp64.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/elanfp64.b06 \	
-    vendor/nokia/DRG/proprietary/vendor/firmware/elanfp64.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/elanfp64.b07 \	
-    vendor/nokia/DRG/proprietary/vendor/firmware/elanfp64.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/elanfp64.mdt \	
-    vendor/nokia/DRG/proprietary/vendor/firmware/focalfp.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/focalfp.b00 \	
-    vendor/nokia/DRG/proprietary/vendor/firmware/focalfp.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/focalfp.b01 \	
-    vendor/nokia/DRG/proprietary/vendor/firmware/focalfp.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/focalfp.b02 \	
-    vendor/nokia/DRG/proprietary/vendor/firmware/focalfp.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/focalfp.b03 \	
-    vendor/nokia/DRG/proprietary/vendor/firmware/focalfp.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/focalfp.b04 \	
-    vendor/nokia/DRG/proprietary/vendor/firmware/focalfp.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/focalfp.b05 \	
-    vendor/nokia/DRG/proprietary/vendor/firmware/focalfp.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/focalfp.b06 \	
-    vendor/nokia/DRG/proprietary/vendor/firmware/focalfp.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/focalfp.b07 \	
-    vendor/nokia/DRG/proprietary/vendor/firmware/focalfp.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/focalfp.mdt \	
-    vendor/nokia/DRG/proprietary/vendor/firmware/goodix_config.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_config.cfg \	
-    vendor/nokia/DRG/proprietary/vendor/firmware/goodix_config_hlt.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_config_hlt.cfg \	
-    vendor/nokia/DRG/proprietary/vendor/firmware/goodix_config_hlt_ctl.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_config_hlt_ctl.cfg \	
-    vendor/nokia/DRG/proprietary/vendor/firmware/goodix_config_oflim.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_config_oflim.cfg \	
-    vendor/nokia/DRG/proprietary/vendor/firmware/goodix_config_truly.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_config_truly.cfg \	
-    vendor/nokia/DRG/proprietary/vendor/firmware/goodix_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_firmware.bin \	
-    vendor/nokia/DRG/proprietary/vendor/firmware/goodix_firmware_hlt.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_firmware_hlt.bin \	
-    vendor/nokia/DRG/proprietary/vendor/firmware/goodix_firmware_hlt_ctl.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_firmware_hlt_ctl.bin \	
-    vendor/nokia/DRG/proprietary/vendor/firmware/goodix_firmware_oflim.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_firmware_oflim.bin \	
-    vendor/nokia/DRG/proprietary/vendor/firmware/goodix_firmware_truly.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_firmware_truly.bin \	
-    vendor/nokia/DRG/proprietary/vendor/firmware/gxfp3208_b2n.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp3208_b2n.b00 \	
-    vendor/nokia/DRG/proprietary/vendor/firmware/gxfp3208_b2n.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp3208_b2n.b01 \	
-    vendor/nokia/DRG/proprietary/vendor/firmware/gxfp3208_b2n.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp3208_b2n.b02 \	
-    vendor/nokia/DRG/proprietary/vendor/firmware/gxfp3208_b2n.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp3208_b2n.b03 \	
-    vendor/nokia/DRG/proprietary/vendor/firmware/gxfp3208_b2n.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp3208_b2n.b04 \	
-    vendor/nokia/DRG/proprietary/vendor/firmware/gxfp3208_b2n.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp3208_b2n.b05 \	
-    vendor/nokia/DRG/proprietary/vendor/firmware/gxfp3208_b2n.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp3208_b2n.b06 \	
-    vendor/nokia/DRG/proprietary/vendor/firmware/gxfp3208_b2n.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp3208_b2n.b07 \	
-    vendor/nokia/DRG/proprietary/vendor/firmware/gxfp3208_b2n.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp3208_b2n.mdt \	
-    vendor/nokia/DRG/proprietary/vendor/firmware/gxfp3258_drg.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp3258_drg.b00 \	
-    vendor/nokia/DRG/proprietary/vendor/firmware/gxfp3258_drg.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp3258_drg.b01 \	
-    vendor/nokia/DRG/proprietary/vendor/firmware/gxfp3258_drg.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp3258_drg.b02 \	
-    vendor/nokia/DRG/proprietary/vendor/firmware/gxfp3258_drg.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp3258_drg.b03 \	
-    vendor/nokia/DRG/proprietary/vendor/firmware/gxfp3258_drg.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp3258_drg.b04 \	
-    vendor/nokia/DRG/proprietary/vendor/firmware/gxfp3258_drg.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp3258_drg.b04 \	
-    vendor/nokia/DRG/proprietary/vendor/firmware/gxfp3258_drg.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp3258_drg.b05 \	
-    vendor/nokia/DRG/proprietary/vendor/firmware/gxfp3258_drg.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp3258_drg.b06 \	
-    vendor/nokia/DRG/proprietary/vendor/firmware/gxfp3258_drg.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp3258_drg.b07 \	
-    vendor/nokia/DRG/proprietary/vendor/firmware/gxfp3258_drg.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp3258_drg.mdt \	
-    vendor/nokia/DRG/proprietary/vendor/firmware/gxfp5288_c1n.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp5288_c1n.b00 \	
-    vendor/nokia/DRG/proprietary/vendor/firmware/gxfp5288_c1n.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp5288_c1n.b01 \	
-    vendor/nokia/DRG/proprietary/vendor/firmware/gxfp5288_c1n.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp5288_c1n.b02 \	
-    vendor/nokia/DRG/proprietary/vendor/firmware/gxfp5288_c1n.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp5288_c1n.b03 \	
-    vendor/nokia/DRG/proprietary/vendor/firmware/gxfp5288_c1n.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp5288_c1n.b04 \	
-    vendor/nokia/DRG/proprietary/vendor/firmware/gxfp5288_c1n.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp5288_c1n.b05 \	
-    vendor/nokia/DRG/proprietary/vendor/firmware/gxfp5288_c1n.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp5288_c1n.b06 \	
-    vendor/nokia/DRG/proprietary/vendor/firmware/gxfp5288_c1n.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp5288_c1n.b07 \	
+    vendor/nokia/DRG/proprietary/vendor/firmware/elanfp64.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/elanfp64.b00 \
+    vendor/nokia/DRG/proprietary/vendor/firmware/elanfp64.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/elanfp64.b01 \
+    vendor/nokia/DRG/proprietary/vendor/firmware/elanfp64.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/elanfp64.b02 \
+    vendor/nokia/DRG/proprietary/vendor/firmware/elanfp64.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/elanfp64.b03 \
+    vendor/nokia/DRG/proprietary/vendor/firmware/elanfp64.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/elanfp64.b04 \
+    vendor/nokia/DRG/proprietary/vendor/firmware/elanfp64.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/elanfp64.b05 \
+    vendor/nokia/DRG/proprietary/vendor/firmware/elanfp64.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/elanfp64.b06 \
+    vendor/nokia/DRG/proprietary/vendor/firmware/elanfp64.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/elanfp64.b07 \
+    vendor/nokia/DRG/proprietary/vendor/firmware/elanfp64.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/elanfp64.mdt \
+    vendor/nokia/DRG/proprietary/vendor/firmware/focalfp.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/focalfp.b00 \
+    vendor/nokia/DRG/proprietary/vendor/firmware/focalfp.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/focalfp.b01 \
+    vendor/nokia/DRG/proprietary/vendor/firmware/focalfp.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/focalfp.b02 \
+    vendor/nokia/DRG/proprietary/vendor/firmware/focalfp.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/focalfp.b03 \
+    vendor/nokia/DRG/proprietary/vendor/firmware/focalfp.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/focalfp.b04 \
+    vendor/nokia/DRG/proprietary/vendor/firmware/focalfp.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/focalfp.b05 \
+    vendor/nokia/DRG/proprietary/vendor/firmware/focalfp.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/focalfp.b06 \
+    vendor/nokia/DRG/proprietary/vendor/firmware/focalfp.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/focalfp.b07 \
+    vendor/nokia/DRG/proprietary/vendor/firmware/focalfp.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/focalfp.mdt \
+    vendor/nokia/DRG/proprietary/vendor/firmware/goodix_config.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_config.cfg \
+    vendor/nokia/DRG/proprietary/vendor/firmware/goodix_config_hlt.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_config_hlt.cfg \
+    vendor/nokia/DRG/proprietary/vendor/firmware/goodix_config_hlt_ctl.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_config_hlt_ctl.cfg \
+    vendor/nokia/DRG/proprietary/vendor/firmware/goodix_config_oflim.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_config_oflim.cfg \
+    vendor/nokia/DRG/proprietary/vendor/firmware/goodix_config_truly.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_config_truly.cfg \
+    vendor/nokia/DRG/proprietary/vendor/firmware/goodix_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_firmware.bin \
+    vendor/nokia/DRG/proprietary/vendor/firmware/goodix_firmware_hlt.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_firmware_hlt.bin \
+    vendor/nokia/DRG/proprietary/vendor/firmware/goodix_firmware_hlt_ctl.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_firmware_hlt_ctl.bin \
+    vendor/nokia/DRG/proprietary/vendor/firmware/goodix_firmware_oflim.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_firmware_oflim.bin \
+    vendor/nokia/DRG/proprietary/vendor/firmware/goodix_firmware_truly.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_firmware_truly.bin \
+    vendor/nokia/DRG/proprietary/vendor/firmware/gxfp3208_b2n.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp3208_b2n.b00 \
+    vendor/nokia/DRG/proprietary/vendor/firmware/gxfp3208_b2n.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp3208_b2n.b01 \
+    vendor/nokia/DRG/proprietary/vendor/firmware/gxfp3208_b2n.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp3208_b2n.b02 \
+    vendor/nokia/DRG/proprietary/vendor/firmware/gxfp3208_b2n.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp3208_b2n.b03 \
+    vendor/nokia/DRG/proprietary/vendor/firmware/gxfp3208_b2n.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp3208_b2n.b04 \
+    vendor/nokia/DRG/proprietary/vendor/firmware/gxfp3208_b2n.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp3208_b2n.b05 \
+    vendor/nokia/DRG/proprietary/vendor/firmware/gxfp3208_b2n.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp3208_b2n.b06 \
+    vendor/nokia/DRG/proprietary/vendor/firmware/gxfp3208_b2n.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp3208_b2n.b07 \
+    vendor/nokia/DRG/proprietary/vendor/firmware/gxfp3208_b2n.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp3208_b2n.mdt \
+    vendor/nokia/DRG/proprietary/vendor/firmware/gxfp3258_drg.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp3258_drg.b00 \
+    vendor/nokia/DRG/proprietary/vendor/firmware/gxfp3258_drg.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp3258_drg.b01 \
+    vendor/nokia/DRG/proprietary/vendor/firmware/gxfp3258_drg.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp3258_drg.b02 \
+    vendor/nokia/DRG/proprietary/vendor/firmware/gxfp3258_drg.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp3258_drg.b03 \
+    vendor/nokia/DRG/proprietary/vendor/firmware/gxfp3258_drg.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp3258_drg.b04 \
+    vendor/nokia/DRG/proprietary/vendor/firmware/gxfp3258_drg.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp3258_drg.b04 \
+    vendor/nokia/DRG/proprietary/vendor/firmware/gxfp3258_drg.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp3258_drg.b05 \
+    vendor/nokia/DRG/proprietary/vendor/firmware/gxfp3258_drg.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp3258_drg.b06 \
+    vendor/nokia/DRG/proprietary/vendor/firmware/gxfp3258_drg.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp3258_drg.b07 \
+    vendor/nokia/DRG/proprietary/vendor/firmware/gxfp3258_drg.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp3258_drg.mdt \
+    vendor/nokia/DRG/proprietary/vendor/firmware/gxfp5288_c1n.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp5288_c1n.b00 \
+    vendor/nokia/DRG/proprietary/vendor/firmware/gxfp5288_c1n.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp5288_c1n.b01 \
+    vendor/nokia/DRG/proprietary/vendor/firmware/gxfp5288_c1n.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp5288_c1n.b02 \
+    vendor/nokia/DRG/proprietary/vendor/firmware/gxfp5288_c1n.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp5288_c1n.b03 \
+    vendor/nokia/DRG/proprietary/vendor/firmware/gxfp5288_c1n.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp5288_c1n.b04 \
+    vendor/nokia/DRG/proprietary/vendor/firmware/gxfp5288_c1n.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp5288_c1n.b05 \
+    vendor/nokia/DRG/proprietary/vendor/firmware/gxfp5288_c1n.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp5288_c1n.b06 \
+    vendor/nokia/DRG/proprietary/vendor/firmware/gxfp5288_c1n.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp5288_c1n.b07 \
     vendor/nokia/DRG/proprietary/vendor/firmware/gxfp5288_c1n.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp5288_c1n.mdt \
     vendor/nokia/DRG/proprietary/vendor/lib/vendor.qti.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.fingerprint@1.0.so \
-    vendor/nokia/DRG/proprietary/vendor/lib64/hw/fingerprint.elan.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.elan.so \	
-    vendor/nokia/DRG/proprietary/vendor/lib64/hw/fingerprint.focaltech.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.focaltech.so \	
-    vendor/nokia/DRG/proprietary/vendor/lib64/hw/fingerprint.gxfp3208_b2n.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.gxfp3208_b2n.so \	
-    vendor/nokia/DRG/proprietary/vendor/lib64/hw/fingerprint.gxfp3258_drg.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.gxfp3258_drg.so \	
+    vendor/nokia/DRG/proprietary/vendor/lib64/hw/fingerprint.elan.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.elan.so \
+    vendor/nokia/DRG/proprietary/vendor/lib64/hw/fingerprint.focaltech.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.focaltech.so \
+    vendor/nokia/DRG/proprietary/vendor/lib64/hw/fingerprint.gxfp3208_b2n.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.gxfp3208_b2n.so \
+    vendor/nokia/DRG/proprietary/vendor/lib64/hw/fingerprint.gxfp3258_drg.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.gxfp3258_drg.so \
     vendor/nokia/DRG/proprietary/vendor/lib64/hw/fingerprint.gxfp5288_c1n.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.gxfp5288_c1n.so \
-    vendor/nokia/DRG/proprietary/vendor/lib64/libgf_ca_gxfp3208_b2n.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_ca_gxfp3208_b2n.so \	
-    vendor/nokia/DRG/proprietary/vendor/lib64/libgf_ca_gxfp3258_drg.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_ca_gxfp3258_drg.so \	
-    vendor/nokia/DRG/proprietary/vendor/lib64/libgf_ca_gxfp5288_c1n.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_ca_gxfp5288_c1n.so \	
-    vendor/nokia/DRG/proprietary/vendor/lib64/libgf_hal_gxfp3208_b2n.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_hal_gxfp3208_b2n.so \	
-    vendor/nokia/DRG/proprietary/vendor/lib64/libgf_hal_gxfp3258_drg.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_hal_gxfp3258_drg.so \	
+    vendor/nokia/DRG/proprietary/vendor/lib64/libgf_ca_gxfp3208_b2n.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_ca_gxfp3208_b2n.so \
+    vendor/nokia/DRG/proprietary/vendor/lib64/libgf_ca_gxfp3258_drg.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_ca_gxfp3258_drg.so \
+    vendor/nokia/DRG/proprietary/vendor/lib64/libgf_ca_gxfp5288_c1n.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_ca_gxfp5288_c1n.so \
+    vendor/nokia/DRG/proprietary/vendor/lib64/libgf_hal_gxfp3208_b2n.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_hal_gxfp3208_b2n.so \
+    vendor/nokia/DRG/proprietary/vendor/lib64/libgf_hal_gxfp3258_drg.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_hal_gxfp3258_drg.so \
     vendor/nokia/DRG/proprietary/vendor/lib64/libgf_hal_gxfp5288_c1n.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_hal_gxfp5288_c1n.so \
     vendor/nokia/DRG/proprietary/vendor/lib64/libgoodixhwfingerprint_gxfp5288_c1n.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgoodixhwfingerprint_gxfp5288_c1n.so \
     vendor/nokia/DRG/proprietary/vendor/lib64/libqfp-service.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqfp-service.so \
-    vendor/nokia/DRG/proprietary/vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so \	
-    vendor/nokia/DRG/proprietary/vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvendor.goodix.hardware.fingerprint@1.0.so \	
+    vendor/nokia/DRG/proprietary/vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so \
+    vendor/nokia/DRG/proprietary/vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvendor.goodix.hardware.fingerprint@1.0.so \
     vendor/nokia/DRG/proprietary/vendor/lib64/libvendor.goodix.hardware.fingerprintextension@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvendor.goodix.hardware.fingerprintextension@1.0.so \
     vendor/nokia/DRG/proprietary/vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.fingerprint@1.0.so \
 
